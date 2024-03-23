@@ -1,0 +1,86 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}.home-container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.kids-container{
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: url(../../Images/kid.jpg);
+    background-size: cover;
+    height:25vh;
+    width:25vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.women-title{
+    margin-top: 50px;
+    margin-right:50px;
+    font-style: italic;
+}
+.women-container{
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: url(../../Images/women.jpg);
+    background-size: cover;
+    height:25vh;
+    width:25vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.men-title{
+    margin-top: 50px;
+    margin-right:50px;
+    font-style: italic;
+}
+.men-container{
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: url(../../Images/men.jpg);
+    background-size: cover;
+    height:25vh;
+    width:25vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.kid-title{
+    margin-top: 50px;
+    margin-right:50px;
+    font-style: italic;
+}
+.slider-container {
+    background-color: #419be0;
+    width: 85vw;
+    
+}
+.sale1{
+    background-image:  url(../../Images/sale1.jpg);
+    height:40vh;
+    width:100%;
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
+}
+.sale2{
+    background-image:  url(../../Images/sale2.jpg);
+    height:40vh;
+    width:100%;
+    background-size: 100% 60vh;
+    background-repeat: no-repeat;
+
+}
+.sale3{
+    background-image:  url(../../Images/sale3.jpg);
+    height:40vh;
+    width:100%;
+    background-size: 100% 40vh;
+    background-repeat: no-repeat;
+}
